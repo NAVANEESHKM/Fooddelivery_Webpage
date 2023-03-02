@@ -1,0 +1,161 @@
+body{
+    background-color: rgb(234, 229, 217);
+}
+body{
+    overflow-x: hidden;
+}
+.menubar{
+    display:flex;
+    justify-content: center;
+    background-color: orange;
+    position: relative;
+    border-radius: 100px;
+}
+
+.m1{
+    font-family: fantasy;
+    padding-top: 1.5%;
+    padding-left:1%;
+    padding-right:1%;
+    border-right: 2px solid yellow;
+    border-width: 1px;
+    font-size: 18px;
+}
+.main{
+    margin-top: 20px;
+    margin-left: 0;
+    margin-right: 10px;
+    background-color: rgb(211, 182, 126);
+    border-radius: 30px;
+}
+.submenu{
+    display:flex;
+    justify-content: center;
+}
+.sub_menu_design{
+    font-family: fantasy;
+    padding-left: 2%;
+    text-decoration-color: black;
+    font-size: 15px;
+    transition-property: all;
+    transition-duration: 3s;
+    transition-delay: 0s;
+}
+.sub_menu_design:hover{
+    font-size: 18px;
+    color:rgb(215, 74, 31);
+}
+a{
+    text-decoration: none;
+}
+.inner{
+    padding: 5px;
+    margin-left: 90px;
+   width:25%;
+   height:280px; 
+    border: 3px solid grey ;
+    border-radius: 10px;
+}
+.inner:hover{
+    background-color: rgb(216, 192, 144);
+}
+.block1{
+display: flex;
+}
+.block2{
+    margin-top: 20px;
+    width: 100%;
+    height:360px;
+    display:flex;
+}
+.sepmenu1{
+    text-decoration-color: black;
+    font-family: fantasy;
+    font-size: 15px;
+    transition-property: all;
+    transition-duration: 3s;
+    transition-delay: 0s;
+}
+.sepmenu1:hover{
+    font-size: 18px;
+    color: rgb(215, 74, 31);
+}
+h3{
+    margin-left: 150px;
+    font-family: cursive;
+}
+.logo{
+    width: 50px;
+    height:45px;   
+    margin-right: 1200px;
+}
+.imgsize{
+    width: 410px;
+    height: 230px;
+    
+
+}
+h4{
+    font-family: cursive;
+}
+h6{
+   
+    margin-bottom: 1px;
+    font-size: 20px;
+    font-family: fantasy;
+}
+*{
+    box-sizing: border-box;
+}
+.col-1{width:30%; 
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.col-2{width:70%; 
+    margin-left: 450px;
+    margin-top: 10px;
+ 
+}
+.imgsize2{
+    width:564px;
+    height:350px;
+}
+
+  
+  /* The element to apply the animation to */
+ 
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        overflow-x: hidden;
+      width: 100%;
+      margin-left: 0;
+
+    }
+    .imgsize2{
+        width:374px;
+        height:350px;
+    }
+    h6{
+        margin-left: 600px;
+    }
+    body{
+        overflow-x: hidden;
+    }
+   
+   
+  }
+
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+    background-color: yellowgreen;
+  }
+
+.row{
+    position: relative;
+         height: 1250px;
+         width: 100%;
+         margin-top: 0;
+         background-color: aquamarine;
+}
